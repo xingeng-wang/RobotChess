@@ -1,0 +1,38 @@
+Ground Rules
+
+-Follow the Canadian Criminal Code & U of S Code of Conduct for non-academic matters..
+
+-Attendance: Reasonable attendance to meetings is required, notice is expected for absences unless an emergency arises.
+
+-Be respectful
+
+-Be prepared (read agendas before meetings, hit due dates, etc.)
+
+-Communicate properly
+
+-Try not to skip class
+
+-Pull your weight - don’t let everyone else do all the work
+
+Coding:
+
+Commenting: make proper, descriptive comments that can be read by anyone
+
+Don’t deviate from the design/plan.
+
+Proper usage of the repository (update regularly) 
+	-> avoid file-editing conflicts as much as possible
+
+Meetings:
+
+Conflict Resolution: democracy (majority vote, there will never be a tie with 5 group members)
+
+Roles:
+
+Moderator: Xin
+
+Caller: Rotate depending
+
+Secretary: Jordan / Willie
+
+Weekly meeting set at the same time to ensure everyone can make it.
