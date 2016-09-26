@@ -1,0 +1,37 @@
+Author: Jordan Nelson	Sept 25, 2016
+
+
+-Move
+
+	-Preconditions
+		-The current robot is able to move
+		-The current player is still alive
+		-There is another player on the board still alive
+
+	-Flow of Events
+
+		-Default Path
+			-The player inputs which hex the robot will move to
+			-The robot is moved to that hex
+			-The old hex is unhighlighted
+			-The new hex is highlighted
+			-The fog of war is adjusted
+			-The amount the current robot can still move is decremented by the amount moved
+			-Alternate path -> can still move
+			-Alternate path -> can still fire
+			-Update current player stats
+			-Wait for player input (fire, move, or end turn)
+
+	-Alternate Path(s)
+		-Can still move
+			-The hex's the robot can move to are highlighted
+	
+		-Can still fire
+			-The hex's the robot can fire on are highlighted
+
+	-Post-conditions
+		-The current robot is on a new hex
+		-The amount the robot can move is decremented
+
+	-Error Conditions
+		-The player tries to move to a out-of-range hex
