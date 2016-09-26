@@ -1,0 +1,23 @@
+Agenda - September 27th
+
+Ask about the structure for the documentation due on Sunday
+
+	Length? (page wise and what's expected at this point)
+	
+	How big/detailed show actors & actions be?
+	
+	Scenarios
+		Pre conditions
+		Flow of events
+			paths?
+			alternate paths
+		How should the scenario diagrams look?	
+	
+	Clarify layout of sequence diagram and how it should differ from the actions/actors diagram
+	
+	If TA has any tips from his documentation from last year
+		What to do
+		What not to do
+		
+		
+	
