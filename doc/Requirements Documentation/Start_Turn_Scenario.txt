@@ -1,0 +1,29 @@
+Author: Jordan Nelson	Sept 25th, 2016
+
+
+-Start Turn
+	-Preconditions:
+		-Current player is alive
+		-Current player has a valid robot that can move this turn
+		-There is another player still alive on the board
+
+	-Flow of Events
+
+		-Default Path
+			-Look up the current player's stats, then display them
+			-Populate proper fog of war
+			-Find current players fastest robot that hasn't yet gone this round
+			-Highlight hex for player to see robot
+			-Bring the robot to the foreground of picture
+			-Highlight hex's robot can move to
+			-Highlight hex's robot can fire on
+			-Wait for player input
+
+		-Alternate Paths
+			-None
+
+	-Post-conditions
+		-None
+
+	-Error Conditions
+		-None
