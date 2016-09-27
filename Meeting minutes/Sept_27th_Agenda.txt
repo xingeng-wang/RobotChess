@@ -15,3 +15,6 @@ Ask about the structure for the documentation due on Sunday
 	
 	Clarify layout of sequence diagram and how it should differ from the actions/actors diagram
 	
+	Ask if each scenario needs a paragraph
+	
+	Ask if we need a storyboard/GUIs at this point
