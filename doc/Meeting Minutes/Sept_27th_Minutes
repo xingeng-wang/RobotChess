@@ -1,0 +1,16 @@
+Author: Jordan Nelson
+
+Attendance: All
+
+
+Read through requirments documents
+
+Decided on stats to track and display:  
+    -Robots still alive
+    -Robots dead
+    -Win result (won, lost)
+    -Damage inflicted
+    -Damage absorbed
+    -Distance travelled
+    -Shots fired
+    
