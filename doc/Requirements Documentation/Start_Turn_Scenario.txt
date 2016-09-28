@@ -11,8 +11,8 @@ Author: Jordan Nelson	Sept 25th, 2016
 
 		-Default Path
 			-Look up the current player's stats, then display them
-			-Populate proper fog of war
 			-Find current players fastest robot that hasn't yet gone this round
+			-Render proper fog of war
 			-Highlight hex for player to see robot
 			-Bring the robot to the foreground of picture
 			-Highlight hex's robot can move to
