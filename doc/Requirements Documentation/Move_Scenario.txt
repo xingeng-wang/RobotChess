@@ -1,5 +1,20 @@
 Author: Jordan Nelson	Sept 25, 2016
 
+A move action happens during a human or AI player chooses a robot to move, as long as that robot 
+is able to move, that player is still arive (and thus the robot is also still alive) and there is
+another player on the board still alive. After the move action is over, the robot is on the hex
+the player wished, and the movement points the robot has left that turn are decremented by the 
+amount the player moved. The actual move happens in the following way: 
+The player uses the mouse to click the 'move' button on the GUI, and the hex's within the movement 
+range around the robot are 'highlighted' by lighting up/displaying some kind of colour/animation.
+The player then uses the mouse to click on which hex they wish the robot to move to. When this 
+happens, the previous hex's that were highlighted return to normal, and the robot moves to that
+hex (possibly by playing some animation). The old hex the robot was on is unhighlighted from its
+'current robot hex' animation, and the new hex the robot is on is highlighted instead. The fog of 
+war is adjusted, so out-of-range hex's are covered and in-range hex's are revealed. The stat showing
+the movement range the robot has left is then decremented by the amount the robot has moved. After this,
+the game then waits for the next player input. The only error conditions that can arise in this action
+is if the player tries to click on an out-of-range hex, in which case nothing happens.
 
 -Move
 
@@ -11,27 +26,23 @@ Author: Jordan Nelson	Sept 25, 2016
 	-Flow of Events
 
 		-Default Path
+		    -The player inputs the wish to move
+		    -The hex's within the robot's movement range highlight
 			-The player inputs which hex the robot will move to
+			-The movement range hex's unhighlight 
 			-The robot is moved to that hex
 			-The old hex is unhighlighted
 			-The new hex is highlighted
 			-The fog of war is adjusted
 			-The amount the current robot can still move is decremented by the amount moved
-			-Alternate path -> can still move
-			-Alternate path -> can still fire
-			-Update current player stats
 			-Wait for player input (fire, move, or end turn)
 
 	-Alternate Path(s)
-		-Can still move
-			-The hex's the robot can move to are highlighted
-	
-		-Can still fire
-			-The hex's the robot can fire on are highlighted
+		-None
 
 	-Post-conditions
 		-The current robot is on a new hex
 		-The amount the robot can move is decremented
 
 	-Error Conditions
-		-The player tries to move to a out-of-range hex
+		-The player tries to move to an out-of-range hex
