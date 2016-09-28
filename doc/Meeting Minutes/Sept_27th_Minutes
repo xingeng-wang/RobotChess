@@ -13,4 +13,37 @@ Decided on stats to track and display:
     -Damage absorbed
     -Distance travelled
     -Shots fired
+ 
+Discussed: 
+   
+Requirments Doc format:
+    -Cover Page
+    -Intro page
+        -Identify team and summarize game & programming task
+    
+    
+
+Diagrams/sections needed:   
+    -Scenarios
+    -Sequence Diagram for primary scenarios
+    -Interfaces for primary scenarios
+    -System Diagram
+    -UI storyboard
+        -Menu Screen
+        -Option Screen
+        -Set up screen
+        -Play screen
+        -Move screen (showing diffrerent squares highlighted)
+        -Fire screen (showing different squares highlighted)
+        -Ready next player screen
+        -End Game Screen
+  
+Definitions:      
+    System Diagram -> Actors/Actions
+    Activity Diagram->Flow chart of system
+    Sequence Diagram->flow chart of scenario
+    
+Do by Thursday:
+    -Scenarios (with sequence diagrams)
+    -Paragraphs for scenarios
     
