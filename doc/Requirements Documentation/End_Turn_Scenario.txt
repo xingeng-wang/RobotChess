@@ -1,19 +1,23 @@
 Author: Xingeng Wang	Sep 26, 2016
+
+A End Turn condition is the condition the game will reach when all the players in one game, incling the human and computer player had all
+finished their movement, if they have one can move, and had no remaining movement can be done. End Turn Condition can also be triger if 
+the player did not make move and the time is up for their movement. Notice if there is only one player is alive then End Turn condition 
+will not happen, it will process to the End Game step. 
+
 -End Turn
   
   -Pre Conditions
     -All players have no remain movement or time is up
     
   -Flow of Events
-  
-  -Default Path
-    -check how many players are still alive.
-    -window change from End Trub to the New players Screen.
-    -Alternate path -> only one player alive.
+    -Default Path
+        -check how many players are still alive.
+        -window change from End Trub to the New players Screen.
+        -Alternate path -> only one player alive.
     
-    
-  -Alternate Path(s)
-    -Window change from End Turn to End Game
+    -Alternate Path(s)
+        -Window change from End Turn to End Game
     
   -Post Conditions
     -one turn is finished
@@ -21,4 +25,3 @@ Author: Xingeng Wang	Sep 26, 2016
   -Error Conditions
     -Window change to End Game while ther are  ore than one player alive.
     -Window change to Start Turn instead New Player Screen.
-    
