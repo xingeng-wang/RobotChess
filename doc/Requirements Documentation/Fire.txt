@@ -1,0 +1,28 @@
+Author: Willie van Heerde       Sept 28th, 2016
+
+Fire
+    -Precondition:
+        -The player has a tank that is still alive
+        -The player has not already attacked this turn
+        
+    -Flow of events
+    
+        -Default Path
+            1.	Position mouse over tile to be attacked
+            2.	Right click 
+            3.	Click fire on drop down menu
+            4.  Tank fires at target
+            
+        -Alternate paths
+            -Player clicks on target but cannot attack because they either
+                -Have already attacked this turn
+                -Are out of range
+            
+    -Post conditions:
+        -Player has attacked a tile within the range of their tank. A tan may have suffered damage or be destroyed.
+        
+    -Error conditions
+        -The player tries to attack a tile outside the range of their tank
+        -The player tries to attack a tile that is in the fog of war
+        -The player has already attacked this turn
+
