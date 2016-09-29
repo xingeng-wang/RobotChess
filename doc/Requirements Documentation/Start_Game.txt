@@ -1,5 +1,12 @@
 Author: Willie van Heerde       Sept 28th, 2016
 
+This is the action that starts the game. The primary user will from the main menu choose the create game button. From here the user will
+input the number of human players & the number of AI players. It is possible for the user to create a game where there are: Only AI players,
+only human player, and a mix of both. No matter how the user chooses to organize the game the user will then press the confirm button which transitions
+into the board view perspective for the first player (this ends the start game scenario). 
+
+
+
 Start game
     -Pre conditions:
         -None
