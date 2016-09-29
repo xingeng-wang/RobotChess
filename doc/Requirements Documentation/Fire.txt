@@ -1,5 +1,11 @@
 Author: Willie van Heerde       Sept 28th, 2016
 
+    The fire command is one of the commands that the user can do when it is their turn. The user is able to attack a tile provided that it is within their
+current tank's range and they have already not attacked in the current turn. The user is able to attack any tile if the conditions are met, this means the user
+can choose to attack a tile that is: empty, has a tank occupying it (even your own tanks), the tile that the current tank is occuping. Note that during the user's
+turn they can attack once at any point during their turn so they can shoot before moving and vice versa.
+
+
 Fire
     -Precondition:
         -The player has a tank that is still alive
@@ -25,4 +31,3 @@ Fire
         -The player tries to attack a tile outside the range of their tank
         -The player tries to attack a tile that is in the fog of war
         -The player has already attacked this turn
-
