@@ -1,0 +1,25 @@
+Author: Willie van Heerde       Sept 28th, 2016
+
+Start game
+    -Pre conditions:
+        -None
+        
+    -Flow of events
+    
+        -Default path
+            1.	User starts at main menu
+            2.	User presses the play game button
+            3.	User selects the number of players in the game (AI or real)
+            4.	The program transitions from the menu to the gameplay screen
+            
+        Alternate paths
+            1.  User starts at main menu
+            2.  User presses play game button
+            3.  User presses back button to return to main menu
+            
+    -Post conditions
+        -The user is in a game that has the parameters that the user set in the menu
+        
+    -Error conditions
+        -The player presses the play game button without setting any number of players
+        -The player requested a game with only 1 pater
