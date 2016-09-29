@@ -22,4 +22,4 @@ Start game
         
     -Error conditions
         -The player presses the play game button without setting any number of players
-        -The player requested a game with only 1 pater
+        -The player requested a game with only 1 player
