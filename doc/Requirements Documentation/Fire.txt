@@ -20,9 +20,12 @@ Fire
             4.  Tank fires at target
             
         -Alternate paths
-            -Player clicks on target but cannot attack because they either
+            -User clicks on target but cannot attack because they either
                 -Have already attacked this turn
                 -Are out of range
+            -User attacks a tile that is empty
+            -User attacks a tile that has the last enemy tank and wins the game
+            -The user blows up their own tank and loses the game
             
     -Post conditions:
         -Player has attacked a tile within the range of their tank. A tan may have suffered damage or be destroyed.
