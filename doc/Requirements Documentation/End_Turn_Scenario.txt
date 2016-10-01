@@ -12,12 +12,17 @@ will not happen, it will process to the End Game step.
     
   -Flow of Events
     -Default Path
-        -check how many players are still alive.
-        -window change from End Trub to the New players Screen.
-        -Alternate path -> only one player alive.
+        -click "End Turn"
+        -confirm end turn
+        -check if stalemate
+        -Take neext player from queane
+        -Find next Robot
+        -check if next player is human
+        -window change from End Trub to the New players Screen if human player next.
+        -window change from End Trub to the AI loading Screen if AI player next.
     
     -Alternate Path(s)
-        -Window change from End Turn to End Game
+        NO
     
   -Post Conditions
     -one turn is finished
