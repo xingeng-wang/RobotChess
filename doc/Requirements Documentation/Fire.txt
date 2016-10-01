@@ -14,21 +14,17 @@ Fire
     -Flow of events
     
         -Default Path
-            1.	Position mouse over tile to be attacked
-            2.	Right click 
-            3.	Click fire on drop down menu
-            4.  Tank fires at target
+            1.	Postion cursor over "fire" button
+            2.	Click
+            3.	The tiles that the tank is able to fire onto will highlight
+            4.  The user clicks on the desired tile
+            5.  Tank fires at target
             
         -Alternate paths
-            -User clicks on target but cannot attack because they either
-                -Have already attacked this turn
-                -Are out of range
-            -User attacks a tile that is empty
-            -User attacks a tile that has the last enemy tank and wins the game
-            -The user blows up their own tank and loses the game
+            N/A
             
     -Post conditions:
-        -Player has attacked a tile within the range of their tank. A tan may have suffered damage or be destroyed.
+        -Player has attacked a tile within the range of their tank. A tank may have suffered damage or be destroyed. More than 1 tank can also be damaged in the attack.
         
     -Error conditions
         -The player tries to attack a tile outside the range of their tank
