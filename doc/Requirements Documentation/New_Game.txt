@@ -5,7 +5,6 @@ input the number of human players & the number of AI players. It is possible for
 only human player, and a mix of both. No matter how the user chooses to organize the game the user will then press the confirm button which transitions
 into the board view perspective for the first player (this ends the start game scenario). 
 
-
 New Game
     -Pre conditions:
         -None
@@ -16,16 +15,19 @@ New Game
             1.	User starts at main menu
             2.	User presses the play game button
             3.	User selects the number of players in the game (AI or real)
-            4.	The program transitions from the menu to the gameplay screen
+            4.  User presses the start game button.
+            5.	The program transitions from the menu to the gameplay screen
             
         Alternate paths
-            1.  User starts at main menu
-            2.  User presses play game button
-            3.  User presses back button to return to main menu
+            N/A
             
     -Post conditions
         -The user is in a game that has the parameters that the user set in the menu
         
     -Error conditions
-        -The player presses the play game button without setting any number of players
-        -The player requested a game with only 1 player
+        -The player presses the play game button with wrong player parameters like:
+                                                                                    1) Zero players in game
+                                                                                    2) One player in the game
+                                                                                    2) More players than allowed in the game
+                                                                                    
+                            
