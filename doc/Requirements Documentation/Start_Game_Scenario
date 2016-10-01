@@ -1,0 +1,39 @@
+Author: Xingeng Wang	Oct 1, 2016
+
+A Start Game Action  is the action the player take to Start a new game which is happened after all the set up of the game is choosen and
+before any players or AI can actually play the game. In this action, the game will find out what is the size of board of this new game, populate
+all the robots need for this new game and determine which players has which color.
+
+-Start Game
+  
+  -Pre Conditions
+    -players has choose the size of the game board
+    -players has choose the number of human players and AI player for this new game
+    
+  -Flow of Events
+    -Default Path
+        -click "Start Game"
+        -Find Game board size
+        -populate Robots
+        -Randomice Ture Queue
+        -Check if all plyers are AI -Alternate Path 1 if yes
+        -Display ready next player screen
+        
+    
+    -Alternate Path(s)
+        -Alternate Path 1
+            -Check if Spector Mode is on -Alternate Path 2 if yes
+            -Don't display game board
+            -Run game quickly
+        -Alternate Path 2
+            -window change to display the game board.
+            -Turn off the for of war
+            -Run game in human slowly
+    
+  -Post Conditions
+    -A new game has start running
+    
+  -Error Conditions
+    -Game run slowly when all players are AI and no human watch it
+    -Fog of war is off when there is human player in the game
+    -Don't get the robots populate
