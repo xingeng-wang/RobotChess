@@ -32,3 +32,17 @@ Stats screen
     -the remaining number of tanks by the player will be display
     -players can click the "back" buttom to go back to menu
     
+Victory_screen
+    -this screen will display to the players by the end of the game to present which player win the game
+    -play can chose to play the game again
+    -play can chose to view the statistics of the game
+    -play can chose to go back to main menu
+    
+main game board
+    -this is the view of the main game screen
+    -player can open menu by the button in left top corner
+    -the left down corner provide the action player may want to do in the game which include Move, Undo, Fire and End Turn
+    -The middle of the buttom area give the information of the current movement point and the seleted robot stat of player
+    -the right down corner of the screen let the player can confirm their choice
+    -the right top corner of the screen show the log of the current game which include who movw how many and who fire
+    -the game board in the middle will show different size of game board depend on user' choice
