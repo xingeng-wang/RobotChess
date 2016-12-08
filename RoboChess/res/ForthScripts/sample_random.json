@@ -1,0 +1,22 @@
+{ "script" :
+	{
+		"team"		:	"B5",
+		"class"		:	"Scout",
+		"name"		:	"random shooter",
+		"matches"	:	0,
+		"wins"		:	0,
+		"losses"	:	0,
+		"executions":	0,
+		"lived"		:	0,
+		"died"		:	0,
+		"absorbed"	:	0,
+		"killed"	:	0,
+		"moved"		:	0,
+		"code"		:	[ ": maxRange 3 ;                               ",
+						  ": hexesPerRange 6 ;                          ",
+						  ": play ( -- ) maxRange 1 - random 1 +        ",
+						  "              dup hexesPerRange * 1 - random ",
+						  "              swap shoot! ;                  "
+						]
+	}
+}

@@ -1,0 +1,26 @@
+{ "script" :
+	{
+		"team"		:	"A1",
+		"class"		:	"Sniper",
+		"name"		:	"a sniper",
+		"matches"	:	43,
+		"wins"		:	12,
+		"losses"	:	38,
+		"executions":	55,
+		"lived"		:	10,
+		"died"		:	45,
+		"absorbed"	:	93,
+		"killed"	:	12,
+		"moved"		:	0,
+		"code"		:	[ "variable lastShot ;                        ",
+						  "0 lastShot !                               ",
+						  ": play ( -- )                              ",
+						  "    0 begin dup lastShot ? + 1 6 /mod drop ",
+						  "        empty? if .\"no one there\"        ",
+						  "               else dup lastShot !         ",
+						  "                    dup 1 shoot! leave     ",
+						  "               then 1 + dup 5 >            ",
+						  "               until drop ;                "
+						]
+	}
+}
