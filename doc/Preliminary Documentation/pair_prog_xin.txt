@@ -1,0 +1,16 @@
+Session 1: willie
+
+During our pair programming session, willie and I co-implemented the PlayerInfo class which is not one of our major  class 
+so its size is not very big and hard to implement. Because of this reason i take role of pilot on implementing all of 
+the function in this class but the test. when one of us is coding, another one is always very helpful to check if we make some
+mistake and if we follow the coding style or not. when I am in my co-pilot role, i help willie to check if there is some test case 
+which might happen but we didn't test yet so we can same time in future.
+
+
+Session 2: Yuchen Lin
+
+Yuchen and I was doing pair programming on some of the helper function in the server class, these function are not easy and normally
+not a small size. It is very easy to make some mistake by these reasons. with another pair of eyeson the scree, the mistake we make 
+will be much easy to be found out, before we went to coding, we always discuss the way we can implement the function and to see if 
+there is a better ways and we feel this is helpful for us. we switch our role every half hour to 45 minites so our brain and hand can 
+take a break .

@@ -1,0 +1,11 @@
+Jordan's Pair Programming
+
+Session 1: Ryan Park
+
+My first pair programming session was with Ryan. During our session, we implemented the game board's coordinate matrix transformation system. This wasn't an especially difficult problem, but one which woould have taken much longer to do individually. While the pilot programmed, the copilot worked to draw out hex grids and coordinates to develop and understand with the pilot algorithms to transform each coordinate depending on the direction faced. Once a direction was figured out, the pilot would then add it to the algorithm. I found this session exremely enlightening, as I estimate personally implementing a similiar piece of code would have taken me at least twice as long, but probably much longer.
+
+
+
+Session 2: Willie Van Heerde
+
+During my pair programming session with Willie, we implemented the ReferenceSheet class, which keeps track of the unchanging values for each robot (such as range, damage, and movement range). We picked this class not because it was especially difficult, but because in class it was mentioned that some companies operate with a standard pair programming policy, and I believed there was value to be had in seeing how pair programing faired when implemeneting a relativly simple class. That being said, it was useful with our implementation of the ReferenceSheet class to have a copilot always checking the pilots values. Without going into an overly large amount of detail, our implementation had each robot type be indexed by an integer (from 0 to 2) and so it seemed natural to hold the unchanging values in small arrays indexed by the corresponding robot type (so if a tank had an index of 1 and you want to know the range a tank has looking up the value would be as simple as "robotRange[1]"). This being the case, the copilot was useful to check that the values were being stored in the array in proper order, as they were very easy to mix up.

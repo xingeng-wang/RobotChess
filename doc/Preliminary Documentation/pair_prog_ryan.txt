@@ -1,0 +1,16 @@
+Session 1: Jordan Nelson
+
+During our pair programming session, Jordan and I co-implemented the game board's coordinate transformation system.
+While one of us was coding, the other would draw pictures of the hexes and their corresponding mappings. 
+The co-pilot would also be responsible for developing the arithmetic algorithms on paper while the pilot was responsible
+for translating this algorithm to code. Having this separation of concern allowed both pilot and co-pilot to focus
+on their respective tasks.
+
+
+Session 2: Yuchen Lin
+
+During our session, Yuchen and I continued developing the Server class. During my turn as the pilot, I implemented
+message passing between the server/player as well the games player queueing system. Since I was not concerned with
+handling the player actions, I was able to quickly outline the servers main structuring. While I was the co-pilot,
+Yuchen wrote the various helper functions that would utilize the coordinate transformation systems (developed by Jordan and I)
+to handle the manipulations of the game board. 

@@ -1,0 +1,32 @@
+Pair programming sessions : Willie van Heerde
+
+
+Session 1: Xin
+
+	For my first session I paired with Xin and we chose to work on the player info class.
+	Xin started first with programming and as he was coding I peer reviewed his code as he
+	was working on it while making some tests for the static main class. Because I had 
+	implemented the robot class by myself I knew what procedures should be done when
+	creating the 3 robots in the player info constructor. I used this knowledge when we
+	switched roles in our pair programming session to ensure the test cases we were both
+	working on now would work. After I had finished coding we had to make minor changes to
+	the code from the few bugs we found when using our test cases. Because of the simple
+	nature of the class we were both able to quickly and efficiently implement the class
+	that was integral to the server class that Xin was working on as well.
+
+
+Session 2: Jordan	
+	
+	For my second session I paired with Jordan and we choose to work on the reference sheet
+	class because it is a simple to implement class that is essential to the project to
+	function. Because this class was relatively simple it was easy to make a error because
+	it was so simple there was little planning before implementing the code. For example I
+	was fixated on using a linked list to store the value for each of the statistics but,
+	Jordan pointed out that this was unnecessary because the values never get removed, 
+	altered, or reordered so a simple array would work (0 for scout, 1 for sniper, 2  for 
+	tank). When we finished our session we both had made test cases that ensured when we
+	did our final walkthrough we would know if there were any bugs in out code.Because of 
+	this we were able to quickly finish the class and implement tests in the static main 
+	that verified that each thing works as it should. By working together in our pair
+	programming session we were able to quickly finish and test the work we sought out 
+	to do.
