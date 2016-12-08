@@ -1,0 +1,26 @@
+Author: Xingeng Wang	Sep 26, 2016
+-Menu
+  
+  -Pre Conditions
+    -User has started the applcation
+    -No applcation run already
+    -had finished the option windows
+    
+  -Flow of Events
+  
+  -Default Path
+    -User star the applcation.
+    -The set up button for the game is choosen.
+    -Alternate path -> The option button for the applcation is choosen.
+    -Window change from the menu to set up.
+    
+  -Alternate Path(s)
+    -go to the Option
+
+  -Post Conditions
+    - the option windows display and the menu close.
+    - the set up windows display and the menu close.
+  
+  -Error Conditions
+    -Button is not response for the mouse click.
+    -More than one menu are display at the same time.

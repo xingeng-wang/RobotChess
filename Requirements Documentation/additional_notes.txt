@@ -1,0 +1,26 @@
+User Interface
+
+Given the current time constraints, we will be implementing a very basic 2D interface. 
+If time permits, we would like to extend our GUI to allow for more advanced visuals (see Additional Features for more details).
+
+
+Stalemate Conditions
+
+Due to the nature of the game and the limitations of the AI, it is possible for a game to remain in a state of prepetual stalemate. 
+Ex. Players do nothing every turn, players move back and forth between the same hexes, etc.
+
+In order to remedy this situation, a game shall be declared a stalemate and end if one (1) or more of the following conditions are met:
+	(a) No players expend movement points for X	consecutive turns (X to be determined)
+	(b) No players issue attack commands for X consecutive turns (X to be determined)
+	(c) No damage has been dealt to any robot for X consecutive turns (X to be determined)
+	
+
+Additional Features
+
+	Graphical User Interface
+		- 3D models for robots and game board.
+		- Movement/attack animations.
+	
+	Gameplay enhancements
+		1. Special abilities for each robot.
+		2. Hidden power-ups on the gameboard.

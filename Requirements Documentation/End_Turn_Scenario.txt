@@ -1,0 +1,32 @@
+Author: Xingeng Wang	Sep 26, 2016
+
+A End Turn condition is the condition the game will reach when all the players in one game, incling the human and computer player had all
+finished their movement, if they have one can move, and had no remaining movement can be done. End Turn Condition can also be triger if 
+the player did not make move and the time is up for their movement. Notice if there is only one player is alive then End Turn condition 
+will not happen, it will process to the End Game step. 
+
+-End Turn
+  
+  -Pre Conditions
+    -All players have no remain movement or time is up
+    
+  -Flow of Events
+    -Default Path
+        -click "End Turn"
+        -confirm end turn
+        -check if stalemate
+        -Take neext player from queane
+        -Find next Robot
+        -check if next player is human
+        -window change from End Trub to the New players Screen if human player next.
+        -window change from End Trub to the AI loading Screen if AI player next.
+    
+    -Alternate Path(s)
+        NO
+    
+  -Post Conditions
+    -one turn is finished
+    
+  -Error Conditions
+    -Window change to End Game while ther are  ore than one player alive.
+    -Window change to Start Turn instead New Player Screen.

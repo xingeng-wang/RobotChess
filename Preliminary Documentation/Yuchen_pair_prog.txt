@@ -1,0 +1,29 @@
+Pair prog:
+
+Session 1: Ryan Park
+
+During our session, Ryan and I developing the Server class together.  
+During my turn as a pilot, I wrote the helper functions that connect
+the coordinate transformation system of the game board which implement
+by Jordan and Ryan.  And Ryan help me with building the communaication
+using akka between Server and game board because Ryan is more familar with
+it than me.  And during my turn as a co-pilot, Ryan manipulation the 
+message passing between the Server and Player(client), and the player 
+queueing system which is used for manage the turn.  Having the pair
+programming is good for avoiding mistakes and allow each person focus more
+on the task he actually good at.  Also, having someone asking question 
+about the code at the same time is good for unscrambling the thoughts for
+programmer.  
+
+Session 2:  Xingeng Wang
+
+During our session, Xingeng and I developing the moving function in Server.
+During my turn as a pilot, I wrote the helper function that manage the turn,
+which means the getNextRobot and getNextPlayer function.  And Xingeng help me 
+to connect the manage turn function with the part he wrote, which is the 
+move function, better.  During my turn as a co-pilot, I help Xingeng with 
+the move function.  Since the move function need to manage the turn when previous
+player end his turn, getNextRobot and getNextPlayer is useful for move function.
+With pair programming, it will save time to read the other's code in order to 
+use it.  Not only avoiding mistakes, two programmers split a important function
+can also save time than one person write it all. 

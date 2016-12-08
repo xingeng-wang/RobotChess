@@ -1,0 +1,37 @@
+//Yuchen Lin
+//CMPT 370 scenrio
+
+Option
+
+		This is an action that will allow user to change the 
+		setting of the game. The option that can be changed 
+		include sound, full screen and etc.When the user start 
+		the application, a start screenand a button for option 
+		will show up.  If the user want to change some game 
+		setting, he can click the button. After proper setting, 
+		user can start the game.  
+	
+	
+	Precondition: 
+	
+				The application was started and ran correctly.
+				
+	Flow of events:
+	
+				Default path(s):
+							After the user start the application,
+						they can click the option button to change
+						the setting of game like change the sound, 
+						set to full screen mode or window mode. 
+						
+				Alternative path(s):
+							If don't need any change of current setting,
+						Just start the game.  
+						
+	Post condition:
+				Option is set properly, and game is ready to start.  
+		
+	Error condition:
+	
+			
+	

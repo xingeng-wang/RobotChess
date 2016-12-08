@@ -1,0 +1,33 @@
+Author: Willie van Heerde       Sept 28th, 2016
+
+This is the action that sets up the game to be played. The primary user will from the main menu choose the create game button. From here the user will
+input the number of human players & the number of AI players. It is possible for the user to create a game where there are: Only AI players,
+only human player, and a mix of both. No matter how the user chooses to organize the game the user will then press the confirm button which transitions
+into the board view perspective for the first player (this ends the start game scenario). 
+
+New Game
+    -Pre conditions:
+        -None
+        
+    -Flow of events
+    
+        -Default path
+            1.	User starts at main menu
+            2.	User presses the play game button
+            3.	User selects the number of players in the game (AI or real)
+            4.  User presses the start game button.
+            5.	The program transitions from the menu to the gameplay screen
+            
+        Alternate paths
+            N/A
+            
+    -Post conditions
+        -The user is in a game that has the parameters that the user set in the menu
+        
+    -Error conditions
+        -The player presses the play game button with wrong player parameters like:
+                                                                                    1) Zero players in game
+                                                                                    2) One player in the game
+                                                                                    2) More players than allowed in the game
+                                                                                    
+                            

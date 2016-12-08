@@ -1,0 +1,48 @@
+AI turn screen
+    -this display that the upcoming turn's player is AI
+    -this will also descibe the AI number for this AI
+    
+Game set up screen
+    -people can add the number of players they want in this screen
+    -people can remove the players they already added.
+    -people can set the player to be an A.I. player or for a human
+    -people can chose which A.I they want from the A.I. library
+    
+Main Menu
+    -people can chose to create a new game
+    -people can set up the option for this game
+    -people can exit the program
+    
+Options
+    -people can check the check box to turn the sound of the game off
+    -people can uncheck the check box to turn the sound of the game on
+    
+Player transition
+    -this display that the upcoming turn's player is human player
+    -this will also descibe the current human player number for this player
+    -player can click the "Star Turn" buttom to start their turn
+    
+Stats screen
+    -this screen will tell the summary of an individual player
+    -the screen will describe who is the current player
+    -people can click right or left arrow to see the summary of last or next player
+    -the total fire time will be display
+    -the total number of tiles the player has cross will be display
+    -the number of tanks the player killed will be display
+    -the remaining number of tanks by the player will be display
+    -players can click the "back" buttom to go back to menu
+    
+Victory_screen
+    -this screen will display to the players by the end of the game to present which player win the game
+    -play can chose to play the game again
+    -play can chose to view the statistics of the game
+    -play can chose to go back to main menu
+    
+main game board
+    -this is the view of the main game screen
+    -player can open menu by the button in left top corner
+    -the left down corner provide the action player may want to do in the game which include Move, Undo, Fire and End Turn
+    -The middle of the buttom area give the information of the current movement point and the seleted robot stat of player
+    -the right down corner of the screen let the player can confirm their choice
+    -the right top corner of the screen show the log of the current game which include who movw how many and who fire
+    -the game board in the middle will show different size of game board depend on user' choice

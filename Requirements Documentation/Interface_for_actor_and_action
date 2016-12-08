@@ -1,0 +1,33 @@
+//Interface describe
+
+Interface for player:
+    Move,Fire,Start game,New game, End turn, Option, Quit
+    
+Interface for forth interprut:
+    Move,Fire,Start game, End turn,Quit
+    
+Interface for Robot libiran:
+    Register, retire, revise, enumerate, download
+    
+Interface for New game:
+    Get robot from librarian, start a new game
+
+Interface for Start game:
+    Get game setting information, initialize the game
+
+Interface for the Move:
+    Get the robot information(move distance), get valid hexs, set fog of war, 
+    update the robot information
+    
+Interface for Fire:
+    Get the robot information(fire distance, health), get valid target, 
+    update the robot information, End game
+    
+Interface for End turn:
+    Check stale mate, check timer, check turn queue
+
+Interface for Option:
+    Get game setting, set game setting
+
+Interface for Quit:
+    Delete the robot, remove from turn queue, check turn queue
