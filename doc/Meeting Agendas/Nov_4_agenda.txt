@@ -1,0 +1,5 @@
+Nov 4, 2016
+
+Test plan meeting
+    -decide the interface to be test
+    -find out the test method

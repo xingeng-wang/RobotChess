@@ -1,0 +1,17 @@
+Stalement condition
+    If all the players are A.I, then if two of the following conditions happened, the satlement condition will be trige.
+        - None of the A.I players make a movement for 3 consecutive round
+        - None of the A.I players deal damage to other players' robot for consecutive 10 round
+    In require document, we did not detemine the round number for the stalemate condition to happen, we only said X turn, and we remove
+    the condition which is no one fire because the A.I could attack a empty tile.
+    
+spectator mode
+    In require document, we make the spectator mode option in create game screen, we decide to move it options screen in the desgin document.
+    
+debuger mode
+    We add a debuger mode check box option in Option screen, this option will generate a log which will display in 
+    the log panel in the display panel to allow the desgin team to check all the class and funtion was excute.
+    
+Mute volume
+    The mute volume option in the option screen will be remove cause the sound effect is kind of option for use, and we decide to 
+    not implent the sound effect in this point, so we remove it from the option screen.

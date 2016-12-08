@@ -1,0 +1,4 @@
+Oracle Java Code Conventions
+
+Link: http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html
+Offline copy also provided. (codeconventions-150003.pdf)

@@ -1,0 +1,2 @@
+Nov 3 Agenda
+    decide if we need to do any modify of the Oracle java coding style

@@ -1,0 +1,9 @@
+Agenda - November 25, 2016
+
+1. Progress report from team members.
+
+2. Reminder to review coding style guide.
+
+3. Reminder to add javadoc comments.
+
+4. Discuss implementation of librarian request functionality.

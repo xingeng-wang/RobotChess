@@ -1,0 +1,5 @@
+	Coding Style Documentation
+
+	We've decided to use the Oracle style guide as the guideline for our coding style. We've picked this style because it is a clean style that is easy to read, and is similar to most of our personal coding styles already.
+
+	The group has also decided not to make any changes to the style guide for our personal use, as no elected changes were agreed upon by the majority of the group. As such, all code written within our project should be styled according the Oracle style guide, with few to no deviations occurring.

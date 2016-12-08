@@ -1,0 +1,45 @@
+Class Interpreter
+A representation of a Forth language interpreter. 
+Each AI player thread should have 3 instances of this interpreter (one for
+each robot type). Upon creation, the given script is parsed into a list of Forth words. 
+When the server indicates that it is this AI players turn, the play() method is called.
+
+The interpreter class contains the following 4 attributes:
+	String scriptPath; // absolute path of script file location
+	List words; // a parsed list of words for a given script
+	Map variables; // a map to store Forth declared variables
+	Stack stack; // a stack used to interpret Forth scripting language
+
+/*
+ * Constructor for Interpreter class.
+ * Creates an input stream from the file at scriptPath, then invokes parseFile()
+ * Pre: None
+ * Post: new interpreter instanciated
+ */
+Public Interpreter(String scriptPath);
+
+/*
+ * Run by the AI player when signaled by the server.
+ * Iterates through the words list and calls eval() for each Forth word.
+ * Pre: Forth script has been parsed (at class construction time)
+ * Post: Control is returned to the server thread
+ */
+Public void play();
+
+/*
+ * Helper function used by the constructor.
+ * Reads in characters from the file and creates Forth words and adds them to the words list.
+ * Pre: Valid Forth script file is passed in.
+ * Post: words is poplulated with Forth words 
+ */
+Private void parseFile(FileStream file);
+
+/*
+ * Helper function used by play() method.
+ * Evaluates the given word, pushing/popping them onto/off the stack.
+ * Certain operation words, such as scan!, it should send a request off 
+ * to the server for the necessary info and block while waiting.
+ * Pre: Word is a valid Forth word
+ * Post: none
+ */
+Private void eval(String Word);
